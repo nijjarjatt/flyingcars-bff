@@ -1,7 +1,8 @@
 {
   "extends": "loopback",
   "rules": {
-    "indent": [0, 4]
+    "indent": [0, 4],
+    "max-len": [0, { "ignoreUrls": true }]
   },
   "env": {
     "node": true,
