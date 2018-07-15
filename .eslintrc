@@ -1,0 +1,10 @@
+{
+  "extends": "loopback",
+  "rules": {
+    "indent": [0, 4]
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  }
+}
