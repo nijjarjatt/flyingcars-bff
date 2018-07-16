@@ -11,6 +11,12 @@ Clone the repository and follow the steps below;
 npm install
 ```
 
+### Set Env Varaibles
+
+```
+export API_SECRET=<secret_value>
+```
+
 ### Run Test
 
 ```

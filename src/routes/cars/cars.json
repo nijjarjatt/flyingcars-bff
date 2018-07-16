@@ -1,0 +1,14 @@
+[
+    {"id": "1", "img": "https://icdn3.digitaltrends.com/image/2019-volkswagen-jetta-feat-1200x630-c-ar1.91.jpg", "name": "Jetta", "make": "Volkswagen", "year": 2012, "model": "White"},
+    {"id": "2", "img": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Volkswagen_Passat_B1_5d_Jesus_Lock.jpg", "name": "Passat", "make": "Volkswagen", "year": 1998, "model": "Green"},
+    {"id": "3","img": "https://en.wikipedia.org/wiki/Audi_100#/media/File:Audi_100_-_20110617.jpg", "name": "100 LS", "make": "Audi", "year": 1980, "model": "White"},
+    {"id": "4","img": "https://www.audi.ca/content/dam/nemo/ca/Models/q5/MY2018/1920x600_Desktop/AQ5_161008_ohne_illu_1920x600_Desktop-min.jpg", "name": "Q5", "make": "Audi", "year": 2017, "model": "Blue"},
+    {"id": "5", "img": "https://cheapmalagacarhire.com/wp-content/uploads/car-rental-gallery/1469389341_Cheap%20Malaga%20Car%20Hire%20-%20Renault%20Clio%20SW.jpg", "name": "SW", "make": "Renault", "year": 2010, "model": "White"},
+    {"id": "6", "img": "https://www.bristolstreet.co.uk/new/car/21848%5E640x480%5E.jpg", "name": "Clio", "make": "Renault", "year": 2010, "model": "Red"},
+    {"id": "7", "img": "https://www.drivefivestar.com/assets/misc/12376/912681.png", "name": "320I", "make": "BMW", "year": 2013, "model": "White"},
+    {"id": "8", "img": "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/bmw-5-series-1_2.jpg", "name": "520I", "make": "BMW", "year": 2003, "model": "Black"},
+    {"id": "9", "img": "https://48964b8c811fba7f2d22-f65f3ed80b513f851cae5edf0a56ecff.ssl.cf1.rackcdn.com/55SWF4KB6JU257910/161a126aa07f3eab57b94ed185b401a8.jpg", "name": "C300", "make": "Mercedes", "year": 1995, "model": "White"},
+    {"id": "10", "img": "https://dy98q4zwk7hnp.cloudfront.net/1985-Mercedes-Benz-300D-import-classics--Car-100934578-cf87e796915b63d84bd2b3c41980b986.jpg?r=fit&w=430&s=1", "name": "300D", "make": "Mercedes", "year": 1985, "model": "Black"},
+    {"id": "11", "img": "https://barnfinds.com/wp-content/uploads/2014/12/IMAG3661.jpg", "name": "145E SW", "make": "Volvo", "year": 1972, "model": "Yellow"},
+    {"id": "12", "img": "https://auto.ndtvimg.com/car-images/medium/volvo/v40/volvo-v40.jpg?v=12", "name": "V40", "make": "Volvo", "year": 2016, "model": "White"}
+]
