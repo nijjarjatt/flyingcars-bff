@@ -3,10 +3,10 @@
 // Package imports
 const express = require('express');
 const CarsService = require('../../services/cars.service');
-const carsService = new CarsService();
 
 // File globals
 const router = express.Router();
+const carsService = new CarsService();
 
 router.get('/cars', (req, res) => {
     carsService.getAllCars().then((carsData) => {

@@ -8,6 +8,7 @@ const app = module.exports = express();
 
 // All routes are registered here
 app.use('/', require('./cars/cars'));
+app.use('/', require('./availability/availability'));
 
 // Wildcard route
 app.all('*', (req, res) => {

@@ -1,6 +1,6 @@
 'use strict';
 
-const carsData = require('../routes/cars/cars.json');
+const carsData = require('./resources/cars.json');
 
 class CarsService {
     getAllCars() {
