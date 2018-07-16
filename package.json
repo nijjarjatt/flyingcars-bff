@@ -1,6 +1,6 @@
 {
   "name": "flying-cars-bff",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "main": "./src",
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
