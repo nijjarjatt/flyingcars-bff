@@ -2,12 +2,12 @@
 
 // Package imports
 const express = require('express');
-const auth = require('./auth');
+const Authentication = require('./services/auth.service');
 
 // File globals
 const app = module.exports = express();
 const port = process.env.PORT || 3000;
-const authentication = new auth(process.env.API_SECRET);
+const authentication = new Authentication(process.env.API_SECRET);
 
 app.use(authentication);
 
