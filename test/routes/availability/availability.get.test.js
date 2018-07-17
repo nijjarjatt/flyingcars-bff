@@ -14,14 +14,6 @@ chai.use(chaiHttp);
 chai.use(dirtyChai);
 
 describe('GET /availability endpoint', () => {
-    it('should throw 401 status code when security header("secret") is not present', () => {
-        return testUtils.superTestRequestGenerator('/availability', {'some-other-secret': 'abc'}, 401)
-            .then((response) => {
-                response.statusCode.should.be.equal(401);
-                response.body.message.should.be.equal('Not authorized');
-            });
-    });
-
     it('should return 400 status code when required query param "id" is not present', () => {
         return testUtils.superTestRequestGenerator('/availability', {'secret': 'abc'}, 400)
             .then((response) => {

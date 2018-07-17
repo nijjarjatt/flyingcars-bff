@@ -14,14 +14,6 @@ chai.use(chaiHttp);
 chai.use(dirtyChai);
 
 describe('GET /cars endpoint', () => {
-    it('should throw 401 status code when security header("secret") is not present', () => {
-        return testUtils.superTestRequestGenerator('/cars', {'some-other-secret': 'abc'}, 401)
-            .then((response) => {
-                response.statusCode.should.be.equal(401);
-                response.body.message.should.be.equal('Not authorized');
-            });
-    });
-
     it('should return 200 status code (with list of cars) when security header("secret") is present', () => {
         return testUtils.superTestRequestGenerator('/cars', {'secret': 'abc'}, 200)
             .then((response) => {
